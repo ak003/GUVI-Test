@@ -1,0 +1,7 @@
+
+
+Sudo apt update
+sudo apt-get docker.io
+docker pull httpd
+docker run -itd --name test httpd
+
